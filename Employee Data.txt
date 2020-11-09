@@ -1,0 +1,18 @@
+Data Prepartion
+-> For Removing missing values i used Knn imputation in my dataset, I also used Mean encoding but didn't get fruitful results
+-> Data Standardization using StandardScaler
+-> Do not found any duplicates in the dataset
+-> Then data is divided into TRAIN and TEST Sets
+
+Algorithms
+-> I started my quest with Linear regression (took care of multicolinearity with VIF) obviously as dataset demand regression followed by Lasso,Ridge and ElasticNet
+but i couldnt get too much from Linear regression, Lasso, Ridge and Elastic Net
+
+-> Shifted my mind towards Random forest , i do started getting some accuracy with RF but it stucked at one accuracy point even after Tuning
+-> Then I decided to use XGboost with gave a quite higher accuracy than above mentioned algorithms but same problem it got stucked on one value 
+   even after Tuning
+-> Then i tried ensembling technique of voting regressor by combining the results of XGBOOST, RF, Linear reg, Elastic Net & SVR
+-> After trying all these methods and tuning. At last, I tried Deep Learning to solve a regression problem
+Only, Deep learning provide me the result which i wanted to be in top 50's 
+ 
+
