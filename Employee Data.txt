@@ -14,5 +14,5 @@ but i couldnt get too much from Linear regression, Lasso, Ridge and Elastic Net
 -> Then i tried ensembling technique of voting regressor by combining the results of XGBOOST, RF, Linear reg, Elastic Net & SVR
 -> After trying all these methods and tuning. At last, I tried Deep Learning to solve a regression problem
 Only, Deep learning provide me the result which i wanted to be in top 50's 
- 
+-> I got the Highest accuracy with Deep Learning Model 
 
